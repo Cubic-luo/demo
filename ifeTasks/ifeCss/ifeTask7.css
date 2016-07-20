@@ -1,0 +1,367 @@
+/*CSS reset*/
+body,div,dl,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+table{border-collapse: 0;border-spacing: 0;}
+fieldset,img{border: 0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;font-weight: normal;}
+ol,ul{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+body{font-family: "微软雅黑";}
+a{text-decoration: none;}
+
+/*全局*/
+@media screen and (min-width:1300px) {
+	#wrap{
+	width: 100%;	
+}	
+}
+@media screen and (max-width:1300px ) {
+		#wrap{
+	width: 1300px;	
+}
+}
+/*全局结束*/
+/*头部开始*/
+#header{
+	line-height: 60px;
+	background-color: white;
+	overflow: hidden;
+}
+.headerImg{
+	float: left;
+	margin-left: 30px;
+	line-height: 31px;	
+	font-size: 31px;
+	background-image: url(../ifeImages/logo.png);
+	background-repeat: no-repeat;	
+	display: inline-block;
+	padding-left: 35px;
+	margin-top: 15px;
+
+}
+.headerMenu{
+	float: right;
+	margin-right: 10px;
+	display: inline-block;
+	padding-right: 20px;
+}
+.headerMenu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.login{
+	background-image: url(../ifeImages/user_icon.png);
+	background-repeat: no-repeat;
+	background-position: 0 22px;
+	padding-left: 20px;	
+}
+/*头部结束，第一部分开始*/
+.mainPart1{
+	background-image: url(../ifeImages/banner_img.jpg);
+	height: 690px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 150px;
+	padding-left: 100px;
+	color: white;	
+	font-weight: bold;
+}
+.mainPart1 p:nth-child(1){
+	font-size: 60px;
+	margin-left:-4px;
+	margin-bottom: 20px;
+}
+.mainPart1 p:nth-child(2){
+	font-size: 20px;
+	line-height: 30px;
+}
+.mainPart1 p:nth-child(3){
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.mainPart1 p:nth-child(4) a{
+	font-size: 40px;
+	width: 300px;
+	line-height: 60px;
+	display: inline-block;
+	text-align: center;
+	background-color: rgb(231, 79, 77);
+	text-decoration: none;
+	color: white;
+}
+/*第一部分结束，第二部分开始*/
+.mainPart2{
+	text-align: center;
+}
+.mainPart2 ul li{
+	display: inline-block;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+.mainPart2 ul{
+	width: 90%;
+	display: inline-block;	
+}
+.mainPart2 ul li p{
+	margin-top: 20px;
+	line-height: 40px;
+	padding-right: 10px;
+}
+.mainPart2 ul li p:not(.p4){
+	border-right: 1px solid black;	
+	margin-right: 10px;
+	opacity: 0.7;		
+}
+
+/*第二部分结束，第三部分开始*/
+.mainPart3{
+	line-height: 150px;
+	background-color: #EDEDED;
+	text-align: center;
+}
+.mainPart3 img{
+	padding-top: 60px;
+	margin-bottom: -30px;	
+	background-color: #EDEDED;
+}
+.mainPart3 p{	
+	font-size: 50px;
+}
+/*第三部分结束，第四部分开始*/
+.mainPart4{
+	background-image: url(../ifeImages/search_bac.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 340px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+}
+.mainPart4P1{	
+	font-size: 25px;
+}
+.mainPart4 hr{
+	width: 30px;
+	background-color: white;
+	height: 2px;
+}
+.mainPart4P2{
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+#form1 select{
+	width: 200px;
+	height: 30px;
+	margin-right: 10px;
+	background-image: url(../ifeImages/btnb.png) ;
+	background-repeat: no-repeat;
+	background-position: right;
+	appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;  
+  
+}
+.form1Submit{
+	width: 200px;
+	height: 30px;
+	background-color: rgb(231, 79, 77);	
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+/*第四部分结束，第五部分开始*/
+.mainPart5 li{
+	display: inline-block;
+	padding: 20px;
+}
+.mainPart5{
+	background-color: #EDEDED;
+	text-align: center;
+}
+.mainPart5 ul{
+	width: 90%;
+	margin: 0px auto;
+}
+/*第五部分结束，第六部分开始*/
+.mainPart6{
+	overflow: hidden;
+
+}
+.mainPart6Left{
+	background-image: url(../ifeImages/info1_bac.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	width: 60%;
+	height: 400px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+.mainPart6LeftP1{
+	font-size: 38px;
+}
+.mainPart6LeftP2{
+	font-size: 130px;
+}
+.mainPart6LeftP3{
+	font-size: 20px;	
+}
+.mainPart6Right{
+	height: 400px;
+	padding-top: 100px;
+	text-align: center;	
+}
+.mainPart6RightP1{
+	font-size: 20px;
+	margin-bottom: 20px;	
+}
+.mainPart6RightP1 span{
+	color: red;
+}
+.mainPart6RightP2{
+	font-size: 14px;	
+	color: #ccc;
+	margin-bottom: 30px;
+}
+.mainPart6RightP3{
+	border: 1px solid red;
+	display: inline-block;
+	width: 120px;
+	line-height: 30px;
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+}
+.mainPart6RightP3 a:link{
+	color: red;
+}
+.mainPart6RightP3 a:visited{
+	color: red;
+}
+/*第六部分结束，第七部分开始*/
+.mainPart7{
+	overflow: hidden;
+}
+.mainPart7Top{
+	height: 200px;
+	padding-top: 60px;
+	text-align: center;
+	border-top: 1px solid red;
+}
+.mainPart7Top hr{
+	width: 32px;
+	height: 2px;
+	background-color: red;
+}
+.mainPart7TopP1{
+	font-size: 30px;
+}
+.mainPart7TopP2{
+	font-size: 14px;
+	color: #ccc;
+	margin-top: 20px;
+}
+/*part7上部结束*/
+.mainPart7Left{
+	float: left;
+	text-align: left;
+	width: 400px;
+	padding:0px 50px;
+}
+.mainPart7Left li{
+	margin-bottom: 30px;
+}
+.mainPart7Left li p:nth-child(1){
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.mainPart7Left li p:nth-child(2){
+	font-size: 13px;
+	color: #ccc;
+}
+.mainPart7Left li p:nth-child(3){
+	text-align: right;
+	margin-top: 5px;
+}
+/*part7左部结束，右部开始*/
+.mainPart7Right{
+	text-align: center;
+}
+.mainPart7Right form input:not(.part7Submit){
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 30px;
+	background-color: #EDEDEF;
+	border: none;
+}
+.textbox{
+	resize: none;
+	width: 614px;
+	margin-right: 10px;
+	border: none;
+	background-color: #EDEDEF;
+	height: 140px;
+}
+.part7Submit{
+	width: 614px;
+	margin-right: 10px;
+	border: none;
+	background-color: #EDEDEF;
+	height: 40px;
+	margin-top: 10px;
+}
+/*第七部分结束，第八部分开始*/
+.mainPart8{
+	background-color: #33363F;
+	text-align: center;
+	padding-top: 60px;
+	color: white;
+}
+.mainPart8 p:nth-child(1){
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.mainPart8 p:nth-child(2){
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+}
+.mainPart8 p:nth-child(3){
+		font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.part8Search{
+	width: 400px;
+	height: 40px;
+	border: none;
+}
+.part8Submit{
+	width: 80px;
+	height: 40px;
+	border: none;
+	margin-left: -6px;
+}
+.part8Link img{
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+/*第八部分结束*/
+#footer{
+	line-height: 60px;
+	background-color: #ccc;
+	text-align: left;
+	padding-left: 40px;
+}
+.back{
+	position: fixed;
+	right: 5px;
+	bottom: 20px;	
+	font-size: 10px;	
+	height: 30px;
+}

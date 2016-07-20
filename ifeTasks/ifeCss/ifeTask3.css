@@ -1,0 +1,49 @@
+/*CSS reset*/
+body,div,dl,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+table{border-collapse: 0;border-spacing: 0;}
+fieldset,img{border: 0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;font-weight: normal;}
+ol,ul{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+q:before,q:after{content: ''}
+img{width:100%}
+#wrap{
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 10px;	
+	overflow: hidden;
+
+}
+#left{
+	width: 200px;
+	float: left;	
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: white;
+}
+#left span{margin-left: 5px;}
+.ifeTask3Logo{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	float: left;
+}
+#right{
+	float: right;
+	width: 120px;	
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: white;
+}
+#middle{
+	margin-left: 260px;
+	margin-right: 180px;
+	border: 1px solid #999;
+	padding: 20px;
+	background-color: white;	
+
+}
+.ifeTask3Logo2{
+	margin-bottom: 20px;
+}

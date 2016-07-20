@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Cubic-luo (you@example.org)
+ * @date    2016-06-03 20:18:59
+ * @version $Id$
+ */
+ *{margin: 0px;padding: 0px;}
+.wrap{padding: 20px ;}
+.com{
+	box-sizing: border-box;	
+	float: left;
+}
+.inner{
+	box-sizing: border-box;
+	background-color: #ccc;	
+	height: 50px;
+	margin: 10px;
+}
+/*尺寸大于768时显示的情况*/
+@media screen and (min-width: 768px) {
+	.div1{	width:33.33%; }
+	.div2{  width: 33.33%; }		
+	.div3{  width: 33.33%; } 
+	.div4{ width: 25%; }	
+	.div5{ width: 50%; }
+	.div6{ width: 25%; }
+	.div7{width: 8.3%;}
+	.div8{width: 8.3%;}
+	.div9{width: 16.6%;}
+	.div10{width: 16.6%;}
+	.div11{width: 50.2%;}
+}
+/*尺寸大于768时显示的情况*/
+/*尺寸小于768时显示的情况*/
+@media screen and (max-width: 768px) {
+	.div1{	width:50%; }
+	.div2{  width: 50%; }	
+	.div3{  width: 100%; }
+	.div4{ width: 25%; }	
+	.div5{ width: 50%; }
+	.div6{ width: 25%; }
+	.div7{width: 16.6%;}
+	.div8{width: 16.6%;}
+	.div9{width: 66.8%;}
+	.div10{width: 25%;}
+	.div11{width: 25%;}
+}
+/*尺寸小于768时显示的情况*/
+
+/*关键点在这个属性：box-sizing: border-box;	
+刚开始设置百分比时总是被边框属性影响，极其难看*/

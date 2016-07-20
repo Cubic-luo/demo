@@ -1,0 +1,40 @@
+/*CSS reset*/
+body,div,dl,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+table{border-collapse: 0;border-spacing: 0;}
+fieldset,img{border: 0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;font-weight: normal;}
+ol,ul{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+q:before,q:after{content: ''}
+
+#box{
+	background-color: #eee;
+	width: 400px;
+	height: 200px;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;		
+}
+
+.lt{
+	background-color: yellow;
+	border: 1px solid #eee;
+	border-radius:0px 0px 100% 0px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.rb{
+	background-color: yellow;
+	border: 1px solid #eee;
+	border-radius: 100% 0px 0px 0px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}

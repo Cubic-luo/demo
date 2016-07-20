@@ -1,0 +1,124 @@
+/*CSS reset*/
+body,div,dl,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+table{border-collapse: 0;border-spacing: 0;}
+fieldset,img{border: 0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;font-weight: normal;}
+ol,ul{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+q:before,q:after{content: ''}
+
+body{font-size: 14.7px;background-color: black;}
+#ifeTask2Wrap{
+	width: 95%;
+	margin: 0 auto;
+	border: 1 solid #123;
+}
+#main{
+	background-color: #ddd;
+	padding: 20px;
+	position: relative;
+	padding-bottom: 10px;
+}
+#header{
+	background-color: #123;
+	line-height: 60px;
+	overflow: hidden;		
+}
+.headerTitle{
+	font-size: 22px;
+	color: red;
+	float:left;
+	margin-left: 20px;
+}
+.headerMenu li{
+	display: inline-block;	
+}
+.headerNav{
+	float: right;
+	margin-right: 30px;
+}
+header nav a{text-decoration-line: none;}
+header nav a:link{color: white;}
+article{
+	background-color: white;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;	
+	box-shadow: 2px 2px 2px #ccc;
+	padding: 20px;
+}
+.photo{
+	border: 1px solid #123;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 2em;
+}
+.photo p{	
+	text-align: center;
+	font-size: 10px;
+	margin-bottom: 5px;	
+}
+.photo img{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+.phototitle{font-weight:bold;font-size: 20px; }
+#table1{
+	width: 100%;
+}
+.table1Tr1{
+	background-color: black;
+	color: white;
+}
+.table1Tr4{
+	background-color: #ddd;
+}
+#form1{
+	background-color: white;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;	
+	box-shadow: 2px 2px 2px #ccc;
+	padding: 20px;
+}
+#form1 form table{		
+	width: 100%;
+}
+#form1 h2{
+	border-left: 2px solid #ccc;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+}
+.tr{
+	text-align: right;
+}
+#form1 form td{
+	padding-bottom: 10px;
+}
+.submit{
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 100%;
+	background-color: blue;
+	margin-top: 10px;
+	line-height: 40px;
+	font-size: 16px;
+	color: white;
+}
+#footer{
+	line-height: 60px;
+	color: white;
+	text-align: center;
+	}
+
+.ccc{color: #ccc;font-size: 13px;}
+#aside{
+	width: 400px;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+#left{
+	margin-right: 400px;
+}

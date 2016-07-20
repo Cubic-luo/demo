@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-06-04 19:30:47
+ * @version $Id$
+ */
+/*CSS reset*/
+body,div,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;}
+table{border-collapse: 0;border-spacing: 0;}
+fieldset,img{border: 0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style: normal;font-weight: normal;}
+ol,ul{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+q:before,q:after{content: ''}
+/*头部开始*/
+body{font-family: "microsoft YaHei"}
+#header{
+	height: 60px;
+	background-color: #2189bf;
+	text-align: right;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.headerLeft{
+padding-left: 40px;
+padding-top: 13px;
+float: left;
+}
+.headerSearch{
+	display: inline-block;
+}
+.headerRight{	
+	margin-right: 80px;
+	line-height: 60px;
+}
+.searchBox{
+	height: 30px;
+	width: 300px;
+	padding: 5px 5px 5px 25px;
+	border: none;
+	border-radius: 20px 0px 0px 20px ;
+	outline: none;	
+	background-image:url(../ifeImages/zoom.png) ;
+	background-repeat: no-repeat;
+	background-position: 8px 8px; 
+}
+.login{
+	background-image: url(../ifeImages/login.png) ;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	margin-left: 20px;
+	line-height: 60px;
+	cursor: pointer;
+}
+.headerSearchbtn{
+	width: 40px;
+	height: 30px;
+	border: none;
+	margin-left: -8px;
+	cursor: pointer;
+}
+/*头部结束*/
+#left{
+	width: 250px;
+	height: 900px;
+	background-color: #123;
+	color: #ddd;
+	font-weight: normal;
+	position: fixed;
+	top: 60px;
+	left: 0px;
+}
+/*左边上部分*/
+.leftTop{
+	height: 100px;
+	padding-top: 20px;
+	text-align: center;
+}
+.leftTop p:nth-child(1) {	
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.leftTop p:nth-child(2){
+	border-right: 1px solid black;
+	display: inline-block;
+	font-size: 12px;
+	padding-right: 30px;
+} 
+.leftTop p:nth-child(3){
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 30px;
+}
+/*左边上部结束，下部开始*/
+
+.leftunder{
+	padding-left:30px;
+	font-size: 14px;	
+	padding-top: 30px;
+}
+.leftunderLi1{
+	background-image: url(../ifeImages/file_cur.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+	padding-bottom: 10px;
+}
+.leftunderLi2{
+	background-image: url(../ifeImages/star.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+	padding-bottom: 10px;
+}
+.leftunderLi3{
+	background-image: url(../ifeImages/share.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+	padding-bottom: 10px;
+}
+.leftunderLi4{
+	background-image: url(../ifeImages/star.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+	padding-bottom: 10px;
+}
+.leftunderLi5{
+	background-image: url(../ifeImages/star.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+	padding-bottom: 10px;
+}
+.leftunderLi6{
+	background-image: url(../ifeImages/star.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+	padding-bottom: 10px;
+}
+.leftunderLi1Li1{
+	background-image: url(../ifeImages/file_close.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+}
+.leftunderLi1Li2{
+	background-image: url(../ifeImages/file_close.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+}
+.leftunderLi1Li3{
+	background-image: url(../ifeImages/file_close.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+}
+.leftunderLi1Li1Li1{
+		background-image: url(../ifeImages/doc_open.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+}
+.leftunderLi1Li1Li2{
+		background-image: url(../ifeImages/doc_open.png);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	background-position: 0px 5px;
+}
+/*左边结束，右边part1开始*/
+#right{
+	margin-top: 60px;
+	margin-left: 250px;
+	background-color: #ddd;
+	font-size: 14px;
+}
+.rightHeader{
+	background-color: white;
+	padding-left: 30px;
+	line-height: 30px;
+}
+.rightPart1{
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 40px;
+	padding: 10px;
+	line-height: 40px;
+	width: 1000px;
+	background-image: url(../ifeImages/change.png);
+	background-repeat: no-repeat;
+	background-position: 355px 32px;
+
+}
+.rightPart1 form table{
+	width: 100%;
+}
+.rightPart1Search{
+	background-color: #2189bf;
+	border: none;
+	width: 60px;
+	height: 25px;
+	color: white;
+	margin-right: -10px;
+	border-radius: 10px;
+}
+/*part1结束，part2开始*/
+.rightPart2{
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 40px;
+	padding: 10px;
+	line-height: 40px;
+	width: 1000px;
+	
+}
+.part2P{
+		margin-left: 40px;
+		margin-bottom: -20px;
+   		margin-top: 20px;
+}
+.rightPart2 ul{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px auto;
+	
+
+}
+.rightPart2 ul li{
+	display: inline-block;
+	width: 23%;
+	text-align: left;
+	line-height: 60px;
+	margin-top: 15px;		
+
+}
+.part2Li1{
+	border-left: 3px solid blue;	
+}
+.part2Li1Td1,.part2Li1Td2{
+	line-height: 30px;
+	width: 50px;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+.colorbox1{
+	background-color: blue;	
+	width: 50px;
+}
+
+.part2Li2{
+	border-left: 3px solid green;	
+}
+.part2Li2Td1,.part2Li2Td2{
+	line-height: 30px;
+	width: 50px;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+.colorbox2{
+	background-color: green;	
+	width: 50px;
+}
+
+.part2Li3{
+	border-left: 3px solid yellow;	
+}
+.part2Li3Td1,.part2Li3Td2{
+	line-height: 30px;
+	width: 50px;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+.colorbox3{
+	background-color: yellow;	
+	width: 50px;
+}
+
+.part2Li4{
+	border-left: 3px solid #123;	
+}
+.part2Li4Td1,.part2Li4Td2{
+	line-height: 30px;
+	width: 50px;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+.colorbox4{
+	background-color: #123;	
+	width: 50px;
+}
+
